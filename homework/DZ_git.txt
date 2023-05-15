@@ -1,0 +1,73 @@
+
+Vladimir@DESKTOP-J78MOOJ MINGW64 ~
+$ cd E:/Devoloper/GIT_rep
+
+Vladimir@DESKTOP-J78MOOJ MINGW64 /e/Devoloper/GIT_rep
+$ git clone https://github.com/Vov4ikV/top-python.git
+Cloning into 'top-python'...
+warning: You appear to have cloned an empty repository.
+
+Vladimir@DESKTOP-J78MOOJ MINGW64 /e/Devoloper/GIT_rep
+$ cd top-python
+
+
+Vladimir@DESKTOP-J78MOOJ MINGW64 /e/Devoloper/GIT_rep/top-python (main)
+$ git add .
+
+
+Vladimir@DESKTOP-J78MOOJ MINGW64 /e/Devoloper/GIT_rep/top-python (main)
+$ git config --global user.email "vova.derkach.89@mail.ru"
+
+Vladimir@DESKTOP-J78MOOJ MINGW64 /e/Devoloper/GIT_rep/top-python (main)
+$ git config --global user.name "Vov4ikV"
+
+
+Vladimir@DESKTOP-J78MOOJ MINGW64 /e/Devoloper/GIT_rep/top-python (main)
+$ git commit -m "first commit"
+[main (root-commit) ad881ce] first commit
+ 1 file changed, 52 insertions(+)
+ create mode 100644 hello.py
+
+
+Vladimir@DESKTOP-J78MOOJ MINGW64 /e/Devoloper/GIT_rep/top-python (main)
+$ git branch -M main
+
+Vladimir@DESKTOP-J78MOOJ MINGW64 /e/Devoloper/GIT_rep/top-python (main)
+$ git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 519 bytes | 519.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Vov4ikV/top-python.git
+ * [new branch]      main -> main
+
+Vladimir@DESKTOP-J78MOOJ MINGW64 /e/Devoloper/GIT_rep/top-python (main)
+$ git pull
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 680 bytes | 6.00 KiB/s, done.
+From https://github.com/Vov4ikV/top-python
+   ad881ce..45e9880  main       -> origin/main
+Updating ad881ce..45e9880
+Fast-forward
+ remote_hello.py | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 remote_hello.py
+
+Vladimir@DESKTOP-J78MOOJ MINGW64 /e/Devoloper/GIT_rep/top-python (main)
+$ git branch "new_branch"
+
+Vladimir@DESKTOP-J78MOOJ MINGW64 /e/Devoloper/GIT_rep/top-python (main)
+$ git branch
+* main
+  new_branch
+
+Vladimir@DESKTOP-J78MOOJ MINGW64 /e/Devoloper/GIT_rep/top-python (main)
+$ git switch "new_branch"
+Switched to branch 'new_branch'
+
+Vladimir@DESKTOP-J78MOOJ MINGW64 /e/Devoloper/GIT_rep/top-python (new_branch)
