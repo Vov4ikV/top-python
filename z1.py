@@ -5,7 +5,7 @@ spisok_2 =  [1820, 1835, 1867, 1854]
 
 def sort_books():
     for i in range(len(spisok_1)-1):
-        for j in range(i, len(spisok_1)-1 - i):
+        for j in range(len(spisok_1)-1 - i):
             if spisok_1[j] < spisok_1[j + 1]:
                 temp_1 = spisok_1[j]
                 spisok_1[j] = spisok_1[j + 1]
